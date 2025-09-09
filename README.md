@@ -41,7 +41,7 @@ mapper-extension/
 
 ## Configuración de Referencia y Datos
 
-### `referencia.js`  
+###
 Define los **valores de prueba únicos** que permiten mapear cada campo del formulario:
 
 ```javascript
@@ -102,7 +102,7 @@ Contiene los **datos reales del paciente** que se colocarán en los inputs al re
 
 1. **Preparar la página**
    - Abre el formulario de la web de la obra social.  
-   - Escribe en cada input el **valor de prueba** correspondiente definido en `referencia.js`.  
+   - Escribe en cada input el **valor de prueba** correspondiente definido en referencia. 
      - Ejemplo: en "Nombre" escribe `nom`, en "DNI" escribe `1`, en "Fecha de nacimiento" escribe `01/01/2000`, etc.
 
 2. **Mapear campos**
@@ -124,14 +124,14 @@ Contiene los **datos reales del paciente** que se colocarán en los inputs al re
 
 - Navegador: Chrome (versión moderna, soporte Manifest V3)  
 - Inputs soportados: `text`, `number`, `date`, `select`, `radio`, `checkbox`, `textarea`.  
-- Archivos locales: `datosPrueba.json` y `referencia.js` deben estar dentro de la carpeta de la extensión.
+- Archivos locales: `datosPrueba.json`  deben estar dentro de la carpeta de la extensión.
 
 ---
 
 ## Personalización
 
-- **Añadir campos nuevos**: Agrega el campo en `referencia.js` con un valor único de prueba y en `datosPrueba.json` con el dato real.  
-- **Cambiar valores de prueba**: Edita `referencia.js`.  
+- **Añadir campos nuevos**: Agrega el campo en referencia con un valor único de prueba y en `datosPrueba.json` con el dato real.  
+- **Cambiar valores de prueba**: Edita referencia.  
 - **Cambiar datos reales**: Edita `datosPrueba.json`.  
 
 ---
