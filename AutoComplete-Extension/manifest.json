@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Mapper Formulario",
+  "version": "1.0",
+  "description": "Mapear y rellenar formularios con códigos personalizados",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
